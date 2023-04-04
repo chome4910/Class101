@@ -20,6 +20,7 @@ td{
     display:none; */
     height: 0;
     overflow: hidden;
+    transition: all 1s;
 }
 
 #btn_all-close{
@@ -39,5 +40,6 @@ td{
 }
 
 .active{
-
+    display: block;
+    height: 300px;
 }
